@@ -4,7 +4,7 @@ public class JaggedArray {
 
 	public static void main(String[] args) {
 
-		int age[][]= {{10,20},{30,40,50},{60}}; //jagged array in Java is a multidimensional array where each row can have a different number of columns.
+		int age[][]= {{10,20},{30,40,50},{60}}; //jagged Array in Java is a multidimensional array where each row can have a different number of columns.
 		
 
 	for (int i=0;i<age.length;i++)
