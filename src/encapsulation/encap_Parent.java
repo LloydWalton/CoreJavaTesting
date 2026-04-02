@@ -1,5 +1,6 @@
 //Encapsulation = "Hide the data in one class and allow other classes to access it only through safe methods."
-
+//Hide variables using private
+//Access them using methods (get and set)
 package encapsulation;
 
 public class encap_Parent {
@@ -28,4 +29,5 @@ public class encap_Parent {
 		return age;
 		
 	}
+	
 }
