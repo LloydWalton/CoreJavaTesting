@@ -9,6 +9,10 @@ public class wangonR extends car {
 		obj.drive();
 		obj.music();
 		obj.gear();
+		obj.name="test11";
+		System.out.println(obj.name);
+		
+		
 	}
 
 	@Override
