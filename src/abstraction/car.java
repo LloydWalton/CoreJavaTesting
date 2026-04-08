@@ -2,7 +2,9 @@
 package abstraction;
 
 public abstract class car {
+	 String name="test";
 	
+	 
 	public abstract void drive(); //Abstract method
 	public abstract void gear();
 	

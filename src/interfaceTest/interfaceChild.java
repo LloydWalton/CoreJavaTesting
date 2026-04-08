@@ -7,7 +7,7 @@ public class interfaceChild implements InterfaceParent {
 		
 		interfaceChild obj=new interfaceChild();
 		obj.sound();
-	
+		//obj.name="afsdf"; // not possible
 		System.out.println(obj.name);
 		System.out.println(InterfaceParent.name);
 	}
@@ -15,7 +15,8 @@ public class interfaceChild implements InterfaceParent {
 	@Override
 	public void sound() {
 		System.out.println("Human voice");
-		
+	
+	
 	}
 
 }
